@@ -34,10 +34,9 @@ git commit -m 'message about what I did'
 git push
 ```
 
-The first line adds all your changes, to a staging area
-The second line 'commits' those
-  make sure you include a meaningful message
-The last line actually makes the changes on github
+The first line adds all your changes, to a staging area.
+The second line 'commits' those; make sure you include a meaningful message.
+The last line actually makes the changes on GitHub.
 
 I don't ever use the desktop client, so can't help you there.
 
