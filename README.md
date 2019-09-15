@@ -11,7 +11,7 @@ more information about OpenMaine.
 Also, please see the Wiki tab above for more info.
 
 
-#Whoa, how do I make a local ('my own') copy of the files here?
+# Whoa, how do I make a local ('my own') copy of the files here?
 
 First, just look at the green "Clone or download" button on the upper
 left. You can "Download ZIP" to get your own copy this way.
