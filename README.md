@@ -11,7 +11,7 @@ more information about OpenMaine.
 Also, please see the Wiki tab above for more info.
 
 
-# Whoa, how do I make a local 'my own') copy of these files?
+# Whoa, how do I make a local ('my own') copy of these files?
 
 First, just look at the green "Clone or download" button on the upper
 left. You can "Download ZIP" to get your own copy this way.
@@ -28,9 +28,11 @@ Nutshell process to contribute code, w/o branching, on the command line:
 3. edit
 4. (check your work!)
 5. here's how to push it back up:
+```
 git add .
 git commit -m 'message about what I did'
 git push
+```
 
 The first line adds all your changes, to a staging area
 The second line 'commits' those
