@@ -11,6 +11,12 @@ more information about OpenMaine.
 Also, please see the Wiki tab above for more info.
 
 
+# A version of this is on the web
+
+at http://www.openmaine.org/campaign-finance/DraftFinancesWebsite/
+... but it doesn't automatically pull from github yet. 
+
+
 # Whoa, how do I make a local ('my own') copy of these files?
 
 First, just look at the green "Clone or download" button on the upper
