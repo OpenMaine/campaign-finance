@@ -20,7 +20,9 @@ at http://www.openmaine.org/campaign-finance/DraftFinancesWebsite/
 # Whoa, how do I make a local ('my own') copy of these files?
 
 First, just look at the green "Clone or download" button on the upper
-left. You can "Download ZIP" to get your own copy this way.
+left. You can "Download ZIP" to get your own copy this way. Open the .zip file
+and navigate to the index.html file... this should open 'the website' (but
+not on the web) in your browser.
 
 If you will be contributing, see some info here:
 https://help.github.com/en/articles/cloning-a-repository
