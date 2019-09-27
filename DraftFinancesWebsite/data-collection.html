@@ -14,7 +14,7 @@
   <!-- Bootstrap core CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
- <!--Custom fonts-->
+<!--Custom fonts-->
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger fa fa-home" href="#page-top"></a>
+      <a class="navbar-brand js-scroll-trigger fa fa-home" href="index.html"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,51 +58,42 @@
     </div>
   </nav>
 
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-
-      <div class="carousel-inner d-none d-md-block" role="listbox">
-        <!-- Slide One -->
-       
-          <div class="carousel-item active" style="background-image: url('img/hands.jpg')">
-           
-          <div class="col-sm-6 carousel-caption-1 d-none d-md-block">
-            <h3>OpenMaine analyzed <br/> campaign finance data <br/> for the 2019 Portland elections</h3>
-          </div>
-        </div>   
-        <!-- Slide Two -->
-        <div class="carousel-item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/City_Hall%2C_Portland%2C_ME.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Check out the Mayoral race</h3>
-            <a class="btn btn-lg btn-secondary" href="data-collection.html">Visualizations</a>
-          </div>
-        </div>
-     </div>
- 
-
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </header>
-
   <!-- Page Content -->
   <div class="container">
 
-    <h1 class="my-4 text-center">Portland, Maine <br/> 2019 Campaign Finance Data</h1>
-    <p class="my=4 text-justify"><a href="http://openmaine.org/" target="_blank">OpenMaine</a>, a Code for America Brigade, analyzed pre-election campaign finance reports for the 2019 Portland Mayoral and District 3 City Council races.  Check out our vizualitions for the <a href="portfolio-1-col.html"> Mayoral race</a> and <a href="portofolio-2-col.html"> City Council race</a>. 
-    <br/> <br/>
-    Candidates running for office in Portland, Maine are required to file campaign finance reports with the city 42 days before the election, 11 days before the election, and 42 days after the election.  Reports are often filed on paper and the city does not post them to their website until after the election.  Further information on reporting requirements can be found in the <a href="http://www.portlandmaine.gov/DocumentCenter/View/9102/Candidate-Finance-Guide?bidId=#page=9" target="_blank">2019 Municipal Candidate Guidebook</a></p>
-    <hr>
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3 text-center">Data Collection</h1>
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-12">
+
+        <!-- Preview Image -->
+       <img class="img-fluid.max-width: 100% border border-dark rounded mx-auto d-block" src="img/datacollection.jpeg" alt="Graph"> 
+        <br/>
+        <div class="separate"> </div>
+        <br/>
+        <!-- Post Content -->
+        <h4 class="text-center">General information about our data collection process:</h4>
+        <p>The data presented here is available to the public on sheets of paper in the <a href="https://www.portlandmaine.gov/149/City-Clerk" target="_blank">Portland City Clerk's Office</a>. This is in City Hall, 389 Congress Street, Room 203.The data is not available in electronic form, although you can pay $1/page to get a photocopy.</p>
+
+        <p>Thus, we are largely dependent on volunteers to type in data.</p>
+
+        <p>The original data includes names and addresses of donors. As a group, we spent a lot of time talking about what info we should be asking volunteers to type in and the problem of making data that is publicly available in an awkward form available in a readily usable form. The group decided to avoid making individual names and addresses of donors more available than they already are, e.g., the typing process is onerous, but we don't want marketers to have ready access to individual's info. Therefore, in our hand-typing process, we are not entering it. </p>
+        
+        <h4 class="text-center">Information about the July 2019 reports:</h4>
+        <ol>
+          <li><a href="https://www.pressherald.com/2019/07/17/portland-mayoral-candidates-reveal-donors-expenses/" target="_blank">Portland Press Herald article on July semi-annual reporting for mayoral candidates</a> (includes PDFs of the mayoral candidates filings).</li>
+          <li>This was supplemented by cellphone pictures [ADD LINK]of all candidates' filings for the July 15, 2019 deadline</li>
+          <li>Candidates were also asked to submit their spreadsheets to us directly; only Kate Snyder provided a spreadsheet.</li>
+          <li>Volunteers hand-entered data from the PDFs (and from the images, when the PDFs were lacking). [ADD LINK TO THE CVS FILE]</li>
+        </ol>
+    
+        <hr>
+      </div>
+
+    </div>
+    <!-- /.row -->
 
   </div>
   <!-- /.container -->
@@ -120,8 +111,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!--JavaScript-->
-<script src="js/campaignfinance.js"></script>
 </body>
 
 </html>

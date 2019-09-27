@@ -1,0 +1,100 @@
+.h1, h1{
+	font-family: courier;
+}
+
+.h2, h2{
+	font-family: courier;
+}
+
+.separate {
+	 border-bottom: 6px solid #3d5fdb;
+}
+.navbar{
+	background-color: #7d807e;
+}
+
+.navimg{
+	width: 50px;
+	height: 40px;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#000006;
+}
+
+.navbar-dark .navbar-brand{
+	color: #0f0f0f;
+}
+
+a{
+	color: #3d5fdb;
+}
+
+.carousel-item{
+	background-size: 500px 200px;
+	background-position: left;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+.carousel-inner{
+	background-color: #3d5fdb;
+
+}
+
+.carousel-caption-1{
+	position: absolute;
+	left: 45%;
+	padding-top: 50px;
+	right: 20%;
+	bottom: 0px;
+	z-index: 10;
+	padding-bottom: 150px;
+	color: #fff;
+}
+
+.carousel-caption{
+	position: absolute;
+	left: 40%;
+	padding-top: 100px;
+	right: 20%;
+	bottom: 0px;
+	z-index: 10;
+	padding-bottom: 150px;
+	color: #fff;
+	text-align: center;
+}
+
+.chart1 {
+	background-color: #3d5fdb;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.fwbg{
+	background: url("../img/worker-sparks.jpg") center center no-repeat;
+	border-style: solid;
+	background-size: cover;
+    display: flex;
+    height: 300px;
+    max-height: 100px;
+    min-height: 30vh;
+    padding: 15px;
+    position: relative;
+    opacity: .65;
+}
+
+.bg{
+	background: url("../img/clouds.jpeg") center center no-repeat;
+	border-style: solid;
+	background-size: cover;
+    display: flex;
+    height: 300px;
+    max-height: 100px;
+    min-height: 30vh;
+    padding: 15px;
+    position: relative;
+    opacity: .5;
+}
+
+.footer{
+	background-color: #7d807e;
+}
