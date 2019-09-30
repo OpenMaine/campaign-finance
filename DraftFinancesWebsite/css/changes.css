@@ -7,10 +7,10 @@
 }
 
 .separate {
-	 border-bottom: 6px solid #3d5fdb;
+	 border-bottom: 6px solid #040437;
 }
 .navbar{
-	background-color: #7d807e;
+	background-color: #EFEEDE;
 }
 
 .navimg{
@@ -26,7 +26,7 @@
 }
 
 a{
-	color: #3d5fdb;
+	color: #353BA6;
 }
 
 .carousel-item{
@@ -36,7 +36,7 @@ a{
 	margin-bottom: 10px;
 }
 .carousel-inner{
-	background-color: #3d5fdb;
+	background-color: #040437;
 
 }
 
@@ -63,8 +63,12 @@ a{
 	text-align: center;
 }
 
+.viz-section{
+	padding: 5%;
+	background-color: #EFEEDE;
+}
 .chart1 {
-	background-color: #3d5fdb;
+	background-color: #040437;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
@@ -96,5 +100,5 @@ a{
 }
 
 .footer{
-	background-color: #7d807e;
+	background-color: #040437;
 }
