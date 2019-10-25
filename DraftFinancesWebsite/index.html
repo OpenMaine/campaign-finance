@@ -1,107 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Created by: Clare Bates Congdon, September 15, 2019 -->
 
 <head>
-  <title>Portland Mayoral Campaign Finances</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" href="Graphics/icon.5.png">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Maine - Local Campaign Finance Data</title>
+  <link rel="icon" href="img/cityhallgreen.jpg">
+
+  <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <!--Custom fonts-->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/changes.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-<!-- nav bar at the top; should be on all pages -->
-<div class="topnav"><small>
-	<img src="Graphics/icon.5.png" height=40 style='float: left;'
-			 alt="openmaine">
-  <a class="active" href="index.html">Home</a>
-	<a href="data.html">Data</a>
-  <a href="extra.html">Extra Tab</a>
-  <a href="contact.html">Contact</a>
-  </small>
-</div>
-<br>
-<!-- end, navbar ============================== -->
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger fa fa-home" href="#page-top"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="data-collection.html">Data Collection</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualization
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="mayorviz.html">Mayor</a>
+              <a class="dropdown-item" href="citycouncilviz.html">City Council</a>
+              <!--<a class="dropdown-item" href="portfolio-3-col.html">Board of Public Education</a>-->
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="futurework.html">Future Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recommendations.html">Recommendations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<table>
-<tr><td>
-	<img src="Graphics/cityhall.green.jpg" height=120 style='float: left;'
-			 alt="portland city hall">
-</td>
-<td>&nbsp;</td>
-<td>
-<h2>Portland Maine Mayoral Campaign Finances, 2019</h2>
-Looking at sources of funding for candidates for the November 2019
-Portland elections
-</td>
-</tr>
-</table>
-<div class=line>&nbsp;</div>
-<br>
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
 
-<!-- main page content -->
-<pre>Some info that belongs on this site:
-  1. Information about the Portland process, e.g., what filings when, and where
-     the public can find this info
-     Note: some of the info on the process is hard to find. It's
-     potentially useful to name the things we'd like to include but can't
-     ... there are definitely things the city should step up with in terms
-     of this process
-	
-  2. Our process for gathering the information
-     (started in Data tab, above)
+      <div class="carousel-inner d-none d-md-block" role="listbox">
+        <!-- Slide One -->
+       
+          <div class="carousel-item active" style="background-image: url('img/hands.jpg')">
+           
+          <div class="col-sm-6 carousel-caption-1 d-none d-md-block">
+            <h3>OpenMaine analyzed <br/> campaign finance data <br/> for the 2019 Portland elections</h3>
+          </div>
+        </div>   
+        <!-- Slide Two -->
+        <div class="carousel-item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/City_Hall%2C_Portland%2C_ME.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Check out the Mayoral race</h3>
+            <a class="btn btn-lg btn-secondary" href="data-collection.html">Visualizations</a>
+          </div>
+        </div>
+     </div>
+ 
 
-  3. The visualizations, and explanations for each of them
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
 
-  4. Contributors to the website (unless they don't want their name
-     published?)
+  <!-- Page Content -->
+  
+  <section class="viz-section d-none d-sm-block" id="viz">  
+   
+    <div class='tableauPlaceholder' id='viz1563117817736' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2018TradeUnionMurders&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2018TradeUnionMurders&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2018TradeUnionMurders&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1563117817736');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.30)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br/> 
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+    <div class="col-sm-4">
+    <a class="btn btn-lg btn-#040437" href="mayorviz.html">More Mayoral Race Visualizations</a>
+  </div>
+  <div class="col-sm-4">
+    <a class="btn btn-lg btn-#040437" href="citycouncilviz.html">City Council Race Visualizations</a>
+     </div>
+  </div>
 
-  5. Maybe: Our longer-term goals for this project, including:
-    a. Portland council seat finances
-    b. Extensibility to other municipalities 
-</pre>	
-<br>
+  </section> 
 
+  <div class="container">
 
-<h3>Some information on the process in Portland</h3>
-This stuff is hard to find, and the follow are incomplete...
-<ol>
-	<li> <a href="https://www.portlandmaine.gov/1116/November-Municipal-Election">
-			November 2019 Municipal Election</a>
-	</li>
-	<li> <a href="https://www.portlandmaine.gov/1056/Information-for-Candidates">
-			Information for Candidates</a>
-	</li>
-	<li> <a href="http://www.portlandmaine.gov/DocumentCenter/View/9102/Candidate-Finance-Guide?bidId=">Maine
-			2019 Municipal Candidate Guidebook for
-			Towns & Cities With a Population Over 15,000</a>
-	</li>
-</ol>
+    <h1 class="my-4 text-center">Portland, Maine <br/> 2019 Campaign Finance Data</h1>
+    <p class="my=4 text-justify"><a href="http://openmaine.org/" target="_blank">OpenMaine</a>, a Code for America Brigade, analyzed pre-election campaign finance reports for the 2019 Portland Mayoral and District 3 City Council races.  Check out our vizualitions for the <a href="portfolio-1-col.html"> Mayoral race</a> and <a href="portofolio-2-col.html"> City Council race</a>. 
+    <br/> <br/>
+    Candidates running for office in Portland, Maine are required to file campaign finance reports with the city 42 days before the election, 11 days before the election, and 42 days after the election.  Reports are often filed on paper and the city does not post them to their website until after the election.  Further information on reporting requirements can be found in the <a href="http://www.portlandmaine.gov/DocumentCenter/View/9102/Candidate-Finance-Guide?bidId=#page=9" target="_blank">2019 Municipal Candidate Guidebook</a></p>
+    <hr>
 
+  </div>
+  <!-- /.container -->
 
-<br>
-<h3>Testing an embed from Tableau:</h3>
+  <!-- Footer -->
+  <footer class="footer py-3">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; OpenMaine 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
 
-<!-- <iframe src="https://public.tableau.com/profile/alex.pixley#!/vizhome/OpenMaine/Histogram"
-				width=800 height=600></iframe>
-  -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<div class='tableauPlaceholder' id='viz1568940316437' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Op&#47;OpenMaine&#47;Histogram&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='OpenMaine&#47;Histogram' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Op&#47;OpenMaine&#47;Histogram&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1568940316437');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-
-
-<br><br>
-You can	also <a href="https://github.com/OpenMaine/Campaign-Finance">find
-	the source of these pages on GitHub</a>
-	
-
-<!-- page footer -->
-<br><br>
-<div class=line> &nbsp;</div>
-<small>This is a project of OpenMaine. Our main site is
-	at <a href="http://openmaine.org">http://openmaine.org</a>
-	</small>
-<br><br>
-
+<!--JavaScript-->
+<script src="js/campaignfinance.js"></script>
 </body>
+
+</html>
