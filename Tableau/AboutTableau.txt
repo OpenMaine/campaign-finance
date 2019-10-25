@@ -5,3 +5,5 @@ Tableau Public files can be uploaded for free to the Tableau Public hosting site
 For anyone wishing to learn how to use Tableau Public, there are free training resources (including video tutorials) at https://public.tableau.com/en-us/s/resources.  There are also featured "Viz of the Day" examples of what other people have done in the Gallery (https://public.tableau.com/en-us/gallery/?tab=viz-of-the-day&type=viz-of-the-day).
 
 Note that when creating a visualization, data must be presented to the Tableau Public tool in CSVs, spreadsheets, direct database access, etc.  Data that is used to create the visualization is embedded directly into the .twbx file.  If you have corrections or additions later, that data must be absorbed into the .tbwx file prior to uploading the updated file into the Tableau Public hosting site.
+
+To view options for sharing or downloading a visualization, see the icons in the lower right corner.
