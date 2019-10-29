@@ -78,10 +78,10 @@ us. Do you have some time to enter data?
 Please <a href="https://github.com/OpenMaine/campaign-finance/wiki/Data-entry-for-September-2019-candidate-filings">see
 	information here</a>
 </p>
-
+<br>
 
 	
-<p>See data visualizations:
+<p><b>See data visualizations:</b>
 <table>
   <tr> <td>
 			<a href="mayorviz.html">
@@ -105,7 +105,8 @@ Please <a href="https://github.com/OpenMaine/campaign-finance/wiki/Data-entry-fo
 
 
 <br><br>
-
+<b>Data</b>
+<br>
 Data is available at Portland City Hall; we worked primarily from PDFs
 available from <a href="https://www.pressherald.com/">The Portland Press
 	Herald</a>:
@@ -120,15 +121,32 @@ available from <a href="https://www.pressherald.com/">The Portland Press
 			October mayoral candidate filings in the Portland Press Herald</a>
 		</li>
 </ul>
+
+Volunteers typed in data from these PDFs. The resulting spreadsheet is
+<a href="Data/PortlandMayoral.July2019.xlsx">available here</a>.
+<br><br>
+Additionally, the Snyder campaign provided spreadsheets directly, saving
+considerable data entry for the OpenMaine team. The Strimling and
+Thibodeau teams did not respond to requests for spreadsheets.
+<br><br>
+
 Please see our <a href="information.html">information page</a> for more
 details.
 
 <br><br>
+<table>
+	<tr><td>
 	<img src="img/icon.5.png" height=40 style='float: left;'
 			 alt="openmaine">
-You can learn more about OpenMaine by going to our website
-at <a href="openmaine.org">openmaine.org</a>, and from there, can join us
-on MeetUp, join our Slack, find our GitHub repo, etc.
+		</td>
+	<td>&nbsp;&nbsp;
+	  </td>
+	<td>
+		You can learn more about OpenMaine by going to our website
+		at <a href="openmaine.org">openmaine.org</a>, and from there, can join us
+		on MeetUp, join our Slack, find our GitHub repo, etc.
+	</td></tr>
+	</table>
 <br><br>
 
 
