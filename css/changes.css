@@ -4,16 +4,29 @@ html, body, h1, h2, h3, h4, h5, h6{
 
 h1, h2, h3 { text-align:center }
 
-header h1, header h2 { text-align:left }
+header h1, header h2 { text-align:left}
 header h1 { font-size:36px; padding-top:12px }
 header h2 { font-size:24px }
 
-header { height:127px; padding-left:265px;
+/*header { height:127px; padding-left:265px;
 				 margin-bottom:20px; margin-top:10px;
 				 background: url("../img/cityhallgreen3.png") left no-repeat;
 				 background-size:230px 127px;
+} */
+
+.bgimg {
+	height:127px; 
+	padding-left:265px;
+	margin-bottom:20px; 
+	margin-top:10px;
+	background: url("../img/cityhallgreen3.png") center no-repeat;
+	background-size:230px 127px;
+
 }
 
+.col-sm-7{
+	padding-right: 0px;
+}
 
 .incomplete { color:red }
 .incomplete a { color: red !important }
