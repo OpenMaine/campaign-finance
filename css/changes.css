@@ -1,0 +1,99 @@
+html, body, h1, h2, h3, h4, h5, h6{
+	font-family: Roboto, Palatino, Helvetica, sans-serif;
+}
+
+h1, h2, h3 { text-align:center }
+
+header h1, header h2 { text-align:left}
+header h1 { font-size:36px; padding-top:12px }
+header h2 { font-size:24px }
+
+/*header { height:127px; padding-left:265px;
+				 margin-bottom:20px; margin-top:10px;
+				 background: url("../img/cityhallgreen3.png") left no-repeat;
+				 background-size:230px 127px;
+} */
+
+.bgimg {
+	height:127px; 
+	padding-left:265px;
+	margin-bottom:20px; 
+	margin-top:10px;
+	background: url("../img/cityhallgreen3.png") center no-repeat;
+	background-size:230px 127px;
+
+}
+
+.col-sm-7{
+	padding-right: 0px;
+}
+
+.incomplete { color:red }
+.incomplete a { color: red !important }
+
+p, .p {
+	font-family: Roboto, Palatino, Helvetica, sans-serif;
+}
+
+.separate {
+	 border-bottom: 6px solid #040437;
+}
+.navbar{
+	background-color: #EFEEDE;
+}
+
+.navimg{
+	width: 50px;
+	height: 40px;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#000006;
+}
+
+.navbar-dark .navbar-brand{
+	color: #0f0f0f;
+}
+
+a{
+	color: #353BA6;
+}
+
+.viz-section{
+	padding: 5%;
+	background-color: #EFEEDE;
+}
+.chart1 {
+	background-color: #040437;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.fwbg{
+	background: url("../img/worker-sparks.jpg") center center no-repeat;
+	border-style: solid;
+	background-size: cover;
+    display: flex;
+    height: 300px;
+    max-height: 100px;
+    min-height: 30vh;
+    padding: 15px;
+    position: relative;
+    opacity: .65;
+}
+
+.bg{
+	background: url("../img/clouds.jpeg") center center no-repeat;
+	border-style: solid;
+	background-size: cover;
+    display: flex;
+    height: 300px;
+    max-height: 100px;
+    min-height: 30vh;
+    padding: 15px;
+    position: relative;
+    opacity: .5;
+}
+
+.footer{
+	background-color: #040437;
+}
